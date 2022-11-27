@@ -1,0 +1,42 @@
+-- Stylesheet code for buttons
+/* Digits 0-9 Stylesheet */
+QPushButton {
+   border: 1px solid gray;
+}
+QPushButton:pressed {
+    background-color: qlineargradient( #f6f7fa);
+}
+
+/* End Digits 0-9 Stylesheet */
+
+/* (Clear,+/-,%,. buttons) Unary Operations Buttons Stylesheet */
+
+QPushButton {
+  background-color: rgb(215, 215, 215);
+  border: 1px solid gray;
+}
+QPushButton:pressed {
+    background-color: qlineargradient( #D7D7D7);
+}
+/* End Unary Operations Buttons Stylesheet */
+
+/* (Orange buttons) Operations Buttons Stylesheet */
+QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient( #FF9739);
+}
+
+/* (Label at top) Label Stylesheet */
+
+QLabel {
+  qproperty-alignment: 'AlignVCenter | AlignRight';
+  border: 1px solid gray;
+
+background-color : white;
+}
+/* End Label Stylesheet */
